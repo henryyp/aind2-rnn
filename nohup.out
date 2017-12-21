@@ -1,0 +1,77 @@
+[I 05:21:23.439 NotebookApp] Writing notebook server cookie secret to /run/user/1000/jupyter/notebook_cookie_secret
+[I 05:21:24.579 NotebookApp] JupyterLab alpha preview extension loaded from /home/paperspace/anaconda3/lib/python3.6/site-packages/jupyterlab
+JupyterLab v0.27.0
+Known labextensions:
+[I 05:21:24.582 NotebookApp] Running the core application with no additional extensions or settings
+[I 05:21:24.587 NotebookApp] Serving notebooks from local directory: /home/paperspace/Documents/projects/aind2-rnn
+[I 05:21:24.587 NotebookApp] 0 active kernels 
+[I 05:21:24.587 NotebookApp] The Jupyter Notebook is running at: http://0.0.0.0:8888/?token=d5940e175ad682a18ac41cd825de10924de0bae8d0e5ee31
+[I 05:21:24.587 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 05:21:24.587 NotebookApp] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://0.0.0.0:8888/?token=d5940e175ad682a18ac41cd825de10924de0bae8d0e5ee31
+[I 05:22:20.903 NotebookApp] 302 GET / (210.0.148.202) 0.51ms
+[I 05:22:21.312 NotebookApp] 302 GET /tree? (210.0.148.202) 1.11ms
+[I 05:22:30.367 NotebookApp] Interrupted...
+[I 05:22:30.367 NotebookApp] Shutting down kernels
+[I 05:23:27.897 NotebookApp] JupyterLab alpha preview extension loaded from /home/paperspace/anaconda3/lib/python3.6/site-packages/jupyterlab
+JupyterLab v0.27.0
+Known labextensions:
+[I 05:23:27.898 NotebookApp] Running the core application with no additional extensions or settings
+[I 05:23:27.901 NotebookApp] Serving notebooks from local directory: /home/paperspace/Documents/projects/aind2-rnn
+[I 05:23:27.901 NotebookApp] 0 active kernels 
+[I 05:23:27.901 NotebookApp] The Jupyter Notebook is running at: http://0.0.0.0:8888/?token=3b14e5d714780bb855e6d93bffa7630abb5f22498716e27f
+[I 05:23:27.901 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 05:23:27.901 NotebookApp] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://0.0.0.0:8888/?token=3b14e5d714780bb855e6d93bffa7630abb5f22498716e27f
+[W 05:23:53.858 NotebookApp] Notebook RNN_project.ipynb is not trusted
+[I 05:23:57.949 NotebookApp] Kernel started: 1fc6f44f-f277-427d-8988-5fa8198b27f8
+[I 05:23:57.952 NotebookApp] 302 GET /notebooks/images/text_windowing_training.gif (210.0.148.202) 1.23ms
+[I 05:23:57.956 NotebookApp] 302 GET /notebooks/images/timeseries_windowing_training.gif (210.0.148.202) 1.01ms
+[I 05:23:58.891 NotebookApp] Adapting to protocol v5.1 for kernel 1fc6f44f-f277-427d-8988-5fa8198b27f8
+2017-12-21 05:24:17.356798: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:892] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2017-12-21 05:24:17.357047: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1031] Found device 0 with properties: 
+name: Quadro P4000 major: 6 minor: 1 memoryClockRate(GHz): 1.48
+pciBusID: 0000:00:05.0
+totalMemory: 7.92GiB freeMemory: 7.59GiB
+2017-12-21 05:24:17.357071: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1121] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Quadro P4000, pci bus id: 0000:00:05.0, compute capability: 6.1)
+[W 05:24:24.100 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20171221052327 (210.0.148.202) 8.41ms referer=http://74.82.29.26:8888/notebooks/RNN_project.ipynb
+2017-12-21 05:25:12.860653: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1121] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Quadro P4000, pci bus id: 0000:00:05.0, compute capability: 6.1)
+[I 05:26:02.659 NotebookApp] Saving file at /RNN_project.ipynb
+[W 05:26:02.660 NotebookApp] Saving untrusted notebook RNN_project.ipynb
+[I 05:27:37.317 NotebookApp] Saving file at /RNN_project.ipynb
+[W 05:27:37.318 NotebookApp] Saving untrusted notebook RNN_project.ipynb
+[I 05:30:01.218 NotebookApp] Saving file at /RNN_project.ipynb
+[W 05:30:01.219 NotebookApp] Saving untrusted notebook RNN_project.ipynb
+[I 05:32:03.744 NotebookApp] Saving file at /RNN_project.ipynb
+[W 05:32:03.745 NotebookApp] Saving untrusted notebook RNN_project.ipynb
+[I 05:34:02.616 NotebookApp] Saving file at /RNN_project.ipynb
+[W 05:34:02.617 NotebookApp] Saving untrusted notebook RNN_project.ipynb
+[I 05:35:59.604 NotebookApp] Saving file at /RNN_project.ipynb
+[W 05:35:59.605 NotebookApp] Saving untrusted notebook RNN_project.ipynb
+[I 05:38:04.171 NotebookApp] Saving file at /RNN_project.ipynb
+[W 05:38:04.172 NotebookApp] Saving untrusted notebook RNN_project.ipynb
+[I 05:40:01.437 NotebookApp] Saving file at /RNN_project.ipynb
+[W 05:40:01.438 NotebookApp] Saving untrusted notebook RNN_project.ipynb
+[I 05:42:00.277 NotebookApp] Saving file at /RNN_project.ipynb
+[W 05:42:00.278 NotebookApp] Saving untrusted notebook RNN_project.ipynb
+[I 05:43:59.988 NotebookApp] Saving file at /RNN_project.ipynb
+[W 05:43:59.990 NotebookApp] Saving untrusted notebook RNN_project.ipynb
+[I 05:44:06.248 NotebookApp] Saving file at /RNN_project.ipynb
+[W 05:44:06.249 NotebookApp] Saving untrusted notebook RNN_project.ipynb
+[I 05:45:59.522 NotebookApp] Saving file at /RNN_project.ipynb
+[W 05:45:59.523 NotebookApp] Saving untrusted notebook RNN_project.ipynb
+[I 05:46:07.077 NotebookApp] Kernel interrupted: 1fc6f44f-f277-427d-8988-5fa8198b27f8
+[W 05:46:45.111 NotebookApp] Notebook RNN_project.ipynb is not trusted
+[I 05:48:00.168 NotebookApp] Saving file at /RNN_project.ipynb
+[W 05:48:00.169 NotebookApp] Saving untrusted notebook RNN_project.ipynb
+[I 05:48:06.028 NotebookApp] Saving file at /RNN_project.ipynb
+[W 05:48:06.029 NotebookApp] Saving untrusted notebook RNN_project.ipynb
+[I 05:48:11.709 NotebookApp] Interrupted...
+[I 05:48:11.709 NotebookApp] Shutting down kernels
+[I 05:48:12.712 NotebookApp] Kernel shutdown: 1fc6f44f-f277-427d-8988-5fa8198b27f8
