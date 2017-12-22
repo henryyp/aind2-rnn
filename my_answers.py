@@ -1,7 +1,8 @@
 import numpy as np
 import keras
+import string
 from keras.models import Sequential
-from keras.layers import Dense, Activation, LSTM
+from keras.layers import Dense, Activation, LSTM, Dropout
 
 
 
@@ -23,16 +24,19 @@ def window_transform_series(series, window_size):
 # TODO: build an RNN to perform regression on our time series input/output data
 def build_part1_RNN(window_size):
     model = Sequential()
-    model.add(LSTM(128, input_shape = (window_size,1)))
+    model.add(LSTM(5, input_shape = (window_size,1)))
+    model.add(Dense(1))
 
     return model
 
 
 ### TODO: return the text input with only ascii lowercase and the punctuation given below included.
 def cleaned_text(text):
-    punctuation = ['!', ',', '.', ':', ';', '?']
-    for p in punctuation:
-        text = text.replace(p, ' ')
+    # punctuation = ['!', ',', '.', ':', ';', '?', '"', '$', '%', '&', "'", '(', ')', '_', '=', '*', '+', '-', '/', '\', '@', '{', '}', '[', ']', '|', '<', '>', '^', '~', '±', '§', '£', '#', '€', 'à', 'â', 'è', 'é', '`' ]
+    punctuation = ['!', ',', '.', ':', ';', '?', ' '] + list(string.ascii_lowercase)
+    for c in text:
+        if c not in punctuation:
+            text = text.replace(c, ' ')
     return text
 
 ### TODO: fill out the function below that transforms the input text and window-size into a set of input/output pairs for use with our RNN model
@@ -40,7 +44,7 @@ def window_transform_text(text, window_size, step_size):
     # containers for input/output pairs
     inputs = []
     outputs = []
-    for i in range(0, len(text)-(window_size + 1), step_size):
+    for i in range(0, len(text)-window_size, step_size):
         inputs.append(text[i:i+window_size])
         outputs.append(text[i+window_size])
 
