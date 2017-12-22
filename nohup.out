@@ -75,3 +75,51 @@ totalMemory: 7.92GiB freeMemory: 7.59GiB
 [I 05:48:11.709 NotebookApp] Interrupted...
 [I 05:48:11.709 NotebookApp] Shutting down kernels
 [I 05:48:12.712 NotebookApp] Kernel shutdown: 1fc6f44f-f277-427d-8988-5fa8198b27f8
+[I 22:06:02.120 NotebookApp] JupyterLab alpha preview extension loaded from /home/paperspace/anaconda3/lib/python3.6/site-packages/jupyterlab
+JupyterLab v0.27.0
+Known labextensions:
+[I 22:06:02.123 NotebookApp] Running the core application with no additional extensions or settings
+[I 22:06:02.126 NotebookApp] Serving notebooks from local directory: /home/paperspace/Documents/projects/aind2-rnn
+[I 22:06:02.126 NotebookApp] 0 active kernels 
+[I 22:06:02.126 NotebookApp] The Jupyter Notebook is running at: http://0.0.0.0:8888/?token=aceb3662579b03e6f150d733e03268453320f8ebb9d65481
+[I 22:06:02.126 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 22:06:02.126 NotebookApp] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://0.0.0.0:8888/?token=aceb3662579b03e6f150d733e03268453320f8ebb9d65481
+[W 22:06:18.070 NotebookApp] 404 GET /api/kernels/a4478025-49a1-44d2-88c0-195d55365032/channels?session_id=7D7E5993B4794CF8A2EAAE8F763C3D16 (203.145.95.135): Kernel does not exist: a4478025-49a1-44d2-88c0-195d55365032
+[W 22:06:18.097 NotebookApp] 404 GET /api/kernels/a4478025-49a1-44d2-88c0-195d55365032/channels?session_id=7D7E5993B4794CF8A2EAAE8F763C3D16 (203.145.95.135) 37.60ms referer=None
+[W 22:06:52.172 NotebookApp] Replacing stale connection: a4478025-49a1-44d2-88c0-195d55365032:7D7E5993B4794CF8A2EAAE8F763C3D16
+[W 22:09:24.850 NotebookApp] Notebook RNN_project.ipynb is not trusted
+[I 22:09:29.173 NotebookApp] Kernel started: 95a62fc6-e23a-4031-aee3-38deb09dc222
+[I 22:09:29.192 NotebookApp] 302 GET /notebooks/images/timeseries_windowing_training.gif (203.145.95.135) 1.51ms
+[I 22:09:29.210 NotebookApp] 302 GET /notebooks/images/text_windowing_training.gif (203.145.95.135) 1.48ms
+[I 22:09:30.211 NotebookApp] Adapting to protocol v5.1 for kernel 95a62fc6-e23a-4031-aee3-38deb09dc222
+2017-12-21 22:09:39.835828: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:892] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2017-12-21 22:09:39.836064: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1031] Found device 0 with properties: 
+name: Quadro P4000 major: 6 minor: 1 memoryClockRate(GHz): 1.48
+pciBusID: 0000:00:05.0
+totalMemory: 7.92GiB freeMemory: 7.56GiB
+2017-12-21 22:09:39.836115: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1121] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Quadro P4000, pci bus id: 0000:00:05.0, compute capability: 6.1)
+2017-12-21 22:10:20.867987: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1121] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Quadro P4000, pci bus id: 0000:00:05.0, compute capability: 6.1)
+[I 22:11:31.772 NotebookApp] Saving file at /RNN_project.ipynb
+[W 22:11:31.774 NotebookApp] Saving untrusted notebook RNN_project.ipynb
+[I 22:13:31.001 NotebookApp] Saving file at /RNN_project.ipynb
+[W 22:13:31.003 NotebookApp] Saving untrusted notebook RNN_project.ipynb
+[I 22:13:34.511 NotebookApp] Saving file at /RNN_project.ipynb
+[W 22:13:34.512 NotebookApp] Saving untrusted notebook RNN_project.ipynb
+[I 22:15:34.963 NotebookApp] Saving file at /RNN_project.ipynb
+[W 22:15:34.965 NotebookApp] Saving untrusted notebook RNN_project.ipynb
+[I 22:17:34.494 NotebookApp] Saving file at /RNN_project.ipynb
+[I 22:19:32.306 NotebookApp] Saving file at /RNN_project.ipynb
+[I 22:21:32.594 NotebookApp] Saving file at /RNN_project.ipynb
+[I 22:23:31.584 NotebookApp] Saving file at /RNN_project.ipynb
+[I 22:25:31.324 NotebookApp] Saving file at /RNN_project.ipynb
+[I 22:27:31.574 NotebookApp] Saving file at /RNN_project.ipynb
+[I 22:29:17.354 NotebookApp] Saving file at /RNN_project.ipynb
+[I 22:29:30.904 NotebookApp] Saving file at /RNN_project.ipynb
+[I 22:31:32.535 NotebookApp] Saving file at /RNN_project.ipynb
+[I 22:33:30.536 NotebookApp] Saving file at /RNN_project.ipynb
+[I 22:35:30.712 NotebookApp] Saving file at /RNN_project.ipynb
+[I 22:36:21.158 NotebookApp] Saving file at /RNN_project.ipynb
